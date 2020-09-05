@@ -1,0 +1,13 @@
+.PopupBox {
+  width: 230px;
+  background-color: white;
+  z-index: 500;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-left: -115px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 0.85em;
+  padding: 1%;
+}

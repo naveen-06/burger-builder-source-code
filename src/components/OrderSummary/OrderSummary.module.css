@@ -1,0 +1,62 @@
+.OrderSummary {
+  text-align: center;
+  margin: auto;
+  background-color: wheat;
+  height: 87vh;
+  padding: 3%;
+}
+
+.OrderSummary .Info {
+  width: 430px;
+  margin: 0.5% auto;
+  border: solid 1px #eee;
+  box-shadow: 0 2px 3px #ccc;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.OrderSummary .Info .Title {
+  padding: 2% 4%;
+  color: tomato;
+  text-align: left;
+  border-bottom: solid 1px #eee;
+}
+
+.OrderSummary .Info .Ingredients {
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 8%;
+}
+
+.OrderSummary .Ingredient {
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  padding: 1% 2%;
+}
+
+.OrderSummary .Info .Price {
+  margin: 2%;
+}
+
+.OrderSummary .Info .Buttons {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 630px) {
+  .OrderSummary .Info {
+    width: 95%;
+  }
+
+  .OrderSummary .Ingredient {
+    font-size: 0.75em;
+  }
+
+  .OrderSummary .Info .Price {
+    font-size: 0.8em;
+  }
+
+  .OrderSummary .Info .Title {
+    font-size: 0.85em;
+  }
+}

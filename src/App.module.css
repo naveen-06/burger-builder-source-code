@@ -1,0 +1,13 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App .Image {
+  width: 250px;
+}
+
+.App img {
+  width: 100%;
+}
+

@@ -1,0 +1,45 @@
+.CheckoutContainer {
+  margin: auto;
+  background-color: wheat;
+  height: 87vh;
+  padding: 3%;
+}
+
+.Checkout {
+  width: 350px;
+  margin: auto;
+  border: solid 1px #eee;
+  box-shadow: 0 2px 3px #ccc;
+  background-color: white;
+  border-radius: 5px;
+  padding: 16px;
+  text-align: center;
+}
+
+.Checkout h3 {
+  margin-bottom: 12px;
+  color: tomato;
+}
+
+.CheckedIcon {
+  width: 30px;
+  height: 30px;
+  margin: 12px auto;
+}
+
+.Checkout .Message {
+  margin: 12px 0;
+}
+
+.Checkout .ErrorMsg {
+  text-align: center;
+  color: red;
+  padding: 6px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 630px) {
+  .Checkout {
+    width: 95%;
+  }
+}

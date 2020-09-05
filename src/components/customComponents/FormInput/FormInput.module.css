@@ -1,0 +1,43 @@
+.FormInput {
+  position: relative;
+}
+
+.FormInput input {
+  width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px auto;
+  outline: none;
+  font-size: 1rem;
+}
+
+.FormInput input:focus {
+  border: solid 1px orange;
+}
+
+.FormInput .Label {
+  position: absolute;
+  top: 22px;
+  left: 4px;
+  padding-left: 8px;
+  color: grey;
+  transition: 0.5s;
+}
+
+.FormInput .Shrink {
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  font-size: 0.8rem;
+  color: orange;
+  background-color: white;
+  padding: 0 4px;
+  transition: 0.5s;
+}
+
+@media (max-width: 630px) {
+  .FormInput .Label {
+    font-size: 0.8em;
+  }
+}

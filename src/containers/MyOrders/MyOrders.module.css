@@ -1,0 +1,24 @@
+.MyOrders {
+  margin: auto;
+  background-color: wheat;
+  min-height: 87vh;
+  padding: 3%;
+  text-align: center;
+}
+
+.MyOrders .NoOrder {
+  margin: 10% 0;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: grey;
+}
+
+@media (max-width: 630px) {
+  .MyOrders .Title {
+    font-size: 0.85em;
+    text-align: left;
+    padding-left: 2.5%;
+    margin: 1%;
+  }
+}

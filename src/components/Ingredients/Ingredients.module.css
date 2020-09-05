@@ -1,0 +1,19 @@
+.Ingredients {
+  width: 80%;
+  margin: auto;
+  height: 230px;
+  text-align: center;
+}
+
+.Ingredients .Create {
+  margin: 2% 0;
+  font-size: 0.8em;
+  color: grey;
+}
+
+@media (max-width: 630px) {
+  .Ingredients {
+    width: 98%;
+    height: 180px;
+  }
+}

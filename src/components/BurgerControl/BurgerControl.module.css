@@ -1,0 +1,21 @@
+.ControlContainer {
+  padding: 2% 5%;
+}
+
+.BurgerControl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.BurgerControl .Label {
+  text-align: left;
+  padding-right: 6px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 630px) {
+  .BurgerControl .Label, .Price {
+    font-size: 0.85em;
+  }
+}

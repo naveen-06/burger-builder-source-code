@@ -1,0 +1,33 @@
+.Button {
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  text-transform: capitalize;
+  border: solid 1px rgb(211, 211, 211);
+  outline: none;
+  color: #e27d3a;
+  margin: 2%;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 0.85em;
+}
+
+.Button:hover {
+  background-color: #eee;
+}
+
+.PrimaryBtn {
+  background-color: #e27d3a;
+  color: white;
+}
+
+.PrimaryBtn:hover {
+  background-color: #c5641f;
+}
+
+@media (max-width: 630px) {
+  .Button {
+    font-size: 0.7em;
+    margin: 1.6%;
+  }
+}

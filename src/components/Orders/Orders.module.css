@@ -1,0 +1,74 @@
+.Order {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1% auto;
+  box-shadow: 0 2px 3px #ccc;
+  border: solid 1px #eee;
+  padding: 1%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Order .Burger {
+  width: 80px;
+  align-self: center;
+}
+
+.Order .Content {
+  text-align: left;
+  align-self: center;
+  padding-left: 2%;
+}
+
+.Order .Content .Count {
+  border: solid 1px #ccc;
+  border-radius: 2px;
+  margin-right: 6px;
+  padding: 2px 4px;
+  font-size: 0.8em;
+}
+
+.Order .Content p, h4 {
+  margin: 0.8% 0;
+  font-size: 0.85em;
+}
+
+.Order .Delete {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 1rem;
+  padding-top: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Order .Delete:hover {
+  background-color: #eee;
+}
+
+.Confirm {
+  margin: 12px 0;
+}
+
+@media (max-width: 630px) {
+  .Order {
+    width: 95%;
+    margin: 2%;
+  }
+
+  .Order .Burger {
+    width: 60px;
+  }
+
+  .Order .Content p, h4 {
+    font-size: 0.65em;
+  }
+
+  .Order .Content .Count {
+    font-size: 0.5em;
+  }
+}

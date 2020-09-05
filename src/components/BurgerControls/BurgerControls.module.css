@@ -1,0 +1,63 @@
+.BurgerControls {
+  width: 430px;
+  margin: 0.5% auto;
+  text-align: center;
+  border: solid 1px #eee;
+  box-shadow: 0 2px 3px #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.BurgerControls h3 {
+  padding: 2% 4%;
+  text-align: left;
+  border-bottom: solid 1px #eee;
+  color: tomato;
+}
+
+.BurgerControls h4 {
+  margin: 1%;
+}
+
+.BurgerControls .OrderBtn {
+  background-color: tomato;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 2%;
+  padding: 2% 8%;
+}
+
+.BurgerControls .OrderBtn:hover {
+  background-color: rgb(253, 125, 103);
+}
+
+.BurgerControls .Disabled {
+  background-color: #ccc;
+  color: grey;
+  cursor: not-allowed;
+}
+
+.BurgerControls .Disabled:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 630px) {
+  .BurgerControls {
+    width: 95%;
+    min-height: 200px;
+    margin: 1.5% auto;
+  }
+
+  .BurgerControls h3 {
+    font-size: 0.85em;
+  }
+
+  .BurgerControls .OrderBtn {
+    font-size: 0.9em;
+  }
+}

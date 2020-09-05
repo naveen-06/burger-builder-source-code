@@ -1,0 +1,15 @@
+.BurgerBuilder {
+  width: 100%;
+  height: 87vh;
+  padding-top: 0.5%;
+  background-color: wheat;
+  background-image: url('http://www.baltana.com/files/wallpapers-5/Hamburger-HD-Background-Wallpaper-16705.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 630px) {
+  .BurgerBuilder {
+    padding-top: 2%;
+  }
+}
